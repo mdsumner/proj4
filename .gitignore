@@ -1,0 +1,6 @@
+.Rproj.user
+src/*.so
+src/*.o
+src/Makevars
+config.*
+autom4*

@@ -46,7 +46,7 @@ AC_CHECK_LIB(proj,pj_init_plus,,[
 ])
 
 AC_MSG_CHECKING([whether to require PROJ6 API])
-if test x"${with_proj6}" = xno; then
+if test x"${with_proj6}" = no; then
    AC_MSG_RESULT([no])
  else
   AC_MSG_RESULT([yes])
